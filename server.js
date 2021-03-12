@@ -33,7 +33,7 @@ app.listen(PORT, () => {
 
 //connection to mongodb
 db.mongoose
-  .connect(`mongodb://${dbConfig.HOST}:${dbConfig.PORT}/${dbConfig.DB}`, {
+  .connect(`mongodb+srv://genifi:genifi@genifi.dfbop.mongodb.net/genifi`, {
     useNewUrlParser: true,
     useUnifiedTopology: true
   })
